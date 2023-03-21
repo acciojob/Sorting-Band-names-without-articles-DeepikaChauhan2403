@@ -23,7 +23,7 @@ bandNames.sort(function(a, b) {
 });
 
 // Get the ul element with id 'band'
-let ulElement = document.getElementById("band");
+let ulElement = document.getElementById("bands");
 
 // Loop through the sorted band names and add them as li elements to the ul element
 for (let i = 0; i < bandNames.length; i++) {
